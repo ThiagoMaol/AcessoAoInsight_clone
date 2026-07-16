@@ -11,12 +11,9 @@ Todo o mérito da curadoria, compilação, tradução e revisão de conteúdo pe
 * **Flavio Maia** (Designer responsável pela estrutura visual do site)
 * A todos os demais colaboradores e tradutores que voluntariaram seus esforços na criação deste riquíssimo acervo.
 
-### 📦 Fonte dos Arquivos e Agradecimento
+### 📦 Fonte dos Arquivos
 
-A fonte utilizada para a reconstrução deste clone foi o backup preservado no Internet Archive. Registramos aqui o agradecimento oficial, conforme consta no próprio site original:
-> *"Agradecimento ao Henrique Bueno por viabilizar no final de 2018 o download completo do site para consulta offline."*
-
-Caso tenha interesse em obter a mesma imagem de backup ou baixar os arquivos originais offline completos do site, você pode acessá-los em:
+A fonte utilizada para a reconstrução deste clone foi o backup preservado no Internet Archive:
 ➡️ **[Internet Archive - Acesso ao Insight](https://archive.org/details/AcessoAoInsight)**
 
 > [!IMPORTANT]  
@@ -27,8 +24,32 @@ Caso tenha interesse em obter a mesma imagem de backup ou baixar os arquivos ori
 ## 📝 Estado Atual do Repositório
 
 * **Estrutura de Textos:** Este repositório preserva a parte puramente textual (HTML) do site, contendo a íntegra dos suttas e ensaios.
-* **Mídias Pesadas:** Para economizar o espaço de armazenamento do GitHub, os arquivos de mídia pesada (como audiobooks em `.mp3`/`.m4b` e e-books em `.azw3`/`.epub`/`.pdf`) não foram salvos diretamente nesta hospedagem. Atualmente, o site utiliza um script em JavaScript que intercepta cliques e redireciona de forma automática e invisível os downloads dessas mídias para as fontes originais online do site em uma nova aba do navegador.
+* **Mídias Pesadas:** Para economizar o espaço de armazenamento desta minha conta no GitHub, os arquivos mais pesados de mídia (como audiobooks em `.mp3`/`.m4b` e e-books em `.azw3`/`.epub`/`.pdf`) não foram salvos diretamente nesta hospedagem. Atualmente, o site utiliza um script em JavaScript que intercepta cliques e redireciona de forma automática e invisível os downloads dessas mídias para as fontes originais online do site em uma nova aba do navegador.
 * **Backup de Salvaguarda Completo:** Todos os arquivos de áudio (audiobooks, podcasts) e e-books foram baixados e encontram-se em um backup privado seguro. Caso o site oficial de fato venha a sair do ar de forma definitiva futuramente, esses arquivos de mídia pesada serão disponibilizados em um servidor adequado e este clone (ou outra plataforma semelhante a ser desenvolvida) será ajustado para servi-los de forma direta.
 
+## 🤝 Agradecimentos
+
+Diretamente o maior agradecimento vai para **Michael Beisert**, idealizador e editor principal do Acesso ao Insight, pelo incansável trabalho de tradução e curadoria dos textos do Budismo Theravada para a língua portuguesa ao longo de tantos anos.
+
+O segundo maior agradecimento vai para **John Bullitt**, coordenador do site em inglês *Access to Insight*, que concordou com a tradução do material e também permitiu utilizar o mesmo desenho e organização do site em inglês (embora, com o passar do tempo, o aspecto visual e a organização de ambos os sites tenham se distanciado).
+
+Indiretamente o agradecimento também vai a todos os autores, tradutores e editores que permitiram tornar disponíveis os textos através da Internet.
+
+Um agradecimento especial ao **Flávio Maia** pelo belíssimo trabalho na elaboração do visual rejuvenescido do site, ao completarmos o sexto ano de existência.
+
+Agradecemos também a colaboração do **Almeida Junior - Studio AJ** na significativa melhoria na qualidade dos áudios.
+
+Agradecimento ao **André Ribeiro Barros** pela reprogramação do layout em Julho de 2018 adaptado para a visualização nos smartphones.
+
+Agradecimento ao **Henrique Bueno** por viabilizar no final de 2018 o download completo do site para consulta offline.
+
 ---
-*Que este esforço contribua para a preservação e propagação do Dhamma. Sabbe sattā sukhitā hontu (Que todos os seres sejam felizes).*
+
+Quaisquer méritos deste trabalho online devem ser atribuídos a todas as pessoas citadas neste README, e quaisquer problemas ou erros de clonagem devem ser atribuídos a mim.
+Caso encontrem alguma falha ou bug e queiram contribuir, sintam-se à vontade para fazer Pull Requests (PRs).
+
+---
+
+**Que este esforço contribua para a preservação e propagação do Dhamma.**
+*Sabbe sattā sukhitā hontu*
+*(Que todos os seres sejam felizes).*
