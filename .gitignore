@@ -1,0 +1,11 @@
+﻿# Ignorar arquivos de metadados do Archive.org
+AcessoAoInsight_archive.torrent
+AcessoAoInsight_files.xml
+AcessoAoInsight_meta.xml
+AcessoAoInsightcapa.png
+AcessoAoInsightcapa_thumb.jpg
+__ia_thumb.jpg
+
+# Ignorar scripts utilitarios locais
+organizar_clone.ps1
+publicar_github.ps1
