@@ -1,17 +1,17 @@
-function abrir(url){
-	window.open(url);
+function abrir(url) {
+    window.open(url);
 }
 
 // Injeta a faixa de aviso assim que a página é carregada
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // 1. Criar o elemento da faixa
     var banner = document.createElement("div");
     banner.id = "clone-warning-banner";
 
     // Mensagem sucinta com links em HTML
-    banner.innerHTML = "Este site é um clone do original: " +
-                       "<a href='<http://www.acessoaoinsight.net>'>acessoaoinsight.net</a>. " +
-                       "Para entender o projeto, acesse o <a href='<https://github.com/ThiagoMaol/AcessoAoInsight_clone>'>repositório</a>.";
+    banner.innerHTML = "Este site é um clone. Acesse o original em: " +
+        "<a href='http://www.acessoaoinsight.net'>acessoaoinsight.net</a>. " +
+        "Para entender melhor este projeto, acesse o <a href='https://github.com/ThiagoMaol/AcessoAoInsight_clone'>repositório</a> no GitHub.";
 
     // 2. Estilizar a faixa (cinza quase preto, fixa no topo, z-index alto)
     banner.style.position = "fixed";
