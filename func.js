@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
     banner.id = "clone-warning-banner";
 
     // Mensagem sucinta com links em HTML
-    banner.innerHTML = "Este site é um clone, acesse o original em " +
+    banner.innerHTML = "Este site é um clone do original: " +
                        "<a href='<http://www.acessoaoinsight.net>'>acessoaoinsight.net</a>. " +
-                       "Para entender melhor, acesse meu <a href='<https://github.com/ThiagoMaol/AcessoAoInsight_clone>'>repositório</a>.";
+                       "Para entender o projeto, acesse o <a href='<https://github.com/ThiagoMaol/AcessoAoInsight_clone>'>repositório</a>.";
 
     // 2. Estilizar a faixa (cinza quase preto, fixa no topo, z-index alto)
     banner.style.position = "fixed";
@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
     banner.style.backgroundColor = "#1c1c1c"; // Cinza quase preto
     banner.style.color = "#ffffff";           // Texto em branco
     banner.style.textAlign = "center";
-    banner.style.padding = "8px 15px";
-    banner.style.fontSize = "13px";
+    banner.style.padding = "5px 10px";
+    banner.style.fontSize = "10px";
     banner.style.fontFamily = "sans-serif";
     banner.style.zIndex = "99999";            // Garante que fique acima de tudo
     banner.style.boxShadow = "0 2px 10px rgba(0,0,0,0.5)";
