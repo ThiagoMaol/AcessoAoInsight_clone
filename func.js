@@ -9,10 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
     banner.id = "clone-warning-banner";
 
     // Mensagem sucinta com links em HTML
-    banner.innerHTML = "O presente site é um clone de salvaguarda do site oficial " +
+    banner.innerHTML = "Este site é um clone, acesse o original em " +
                        "<a href='<http://www.acessoaoinsight.net>'>acessoaoinsight.net</a>. " +
-                       "Recomendamos acessar o site original. " +
-                       "Para entender este projeto, acesse o nosso <a href='<https://github.com/ThiagoMaol/AcessoAoInsight_clone>'>repositório no GitHub</a>.";
+                       "Para entender melhor, acesse meu <a href='<https://github.com/ThiagoMaol/AcessoAoInsight_clone>'>repositório</a>.";
 
     // 2. Estilizar a faixa (cinza quase preto, fixa no topo, z-index alto)
     banner.style.position = "fixed";
